@@ -33,7 +33,7 @@
 // 本文(Body)
 //===========
 
-= AsciiDoctorの記法について
+= TiddlyWikiにおけるAsciiDoctorの記法について
 
 注意：
 
