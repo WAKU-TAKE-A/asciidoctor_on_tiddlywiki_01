@@ -37,7 +37,7 @@
 
 注意：
 
-本サンプルは、AsciiDoctorの記法を端折って説明した文書です。網羅するものではないので注意してください。 +
+本サンプルは、 https://bimlas.gitlab.io/tw5-asciidoctor/[TiddlyWiki上でAsciiDoctorを使うこと]を想定した際の記法の説明です。端折って説明したものなので、網羅するものではないことに注意してください。 +
 詳しくは、  https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[Asciidoctor 文法クイックリファレンス(日本語訳)] を参照してください。 +
 最新のものは、 https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[本家のもの] をご覧ください。
 
