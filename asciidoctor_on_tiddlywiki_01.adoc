@@ -130,6 +130,8 @@ _斜体AB_ と__斜__体の文__字AB__です。
 
 TiddlyWikiの「Asciidoctor parser」においては、以下のようにHTMLタグを利用します。
 
+asciidoctor-pdfやGitHubでは、思ったような表示にはならないようです。
+
 書き方：
 
 ....
