@@ -152,7 +152,7 @@ asciidoctor-pdfやGitHubでは、思ったような表示にはならないよ�
 +++<tag></tag>+++
 ```
 
-`+`で囲まれる部分では、変換処理を行わずにそのままHMTLに出力されます。
+`+`で囲まれる部分では、変換処理を行わずにそのままHMTLに出力されます。ブロックの一つ。
 
 == リスト
 
@@ -317,6 +317,8 @@ HTMLタグを利用することもできます。
 
 == ソースコード
 
+`-`×4です。
+
 書き方：
 
 ....
@@ -336,6 +338,46 @@ if var == 100:
 if var == 100:
     print("一致")
 ----
+
+== 引用
+
+`_`×4です。
+
+書き方：
+
+....
+[quote, Albert Einstein]
+____
+A person who never made a mistake never tried anything new.
+____
+....
+
+見え方：
+
+[quote, Albert Einstein]
+____
+A person who never made a mistake never tried anything new.
+____
+
+== Q&A
+
+少し変わっていますがQ&Aです。
+
+書き方：
+
+....
+[qanda]
+Asciidoctorとは何ですか?::
+AsciiDocをRubyで実装したものです。
+生命、宇宙、そして万物についての究極の疑問の答えは何ですか？:: 42です。
+....
+
+見え方：
+
+[qanda]
+Asciidoctorとは何ですか?::
+AsciiDocをRubyで実装したものです。
+生命、宇宙、そして万物についての究極の疑問の答えは何ですか？:: 42です。
 
 <<<
 
